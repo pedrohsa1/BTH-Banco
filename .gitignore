@@ -1,0 +1,7 @@
+src/Web/node_modules
+src/Web/dist
+**/bin
+**/obj
+.vs
+*.user
+.cursor/

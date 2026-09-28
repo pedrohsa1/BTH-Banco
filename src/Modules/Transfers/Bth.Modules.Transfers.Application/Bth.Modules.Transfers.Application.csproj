@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Bth.Common.Application\Bth.Common.Application.csproj" />
+    <ProjectReference Include="..\..\Accounts\Bth.Modules.Accounts.Contracts\Bth.Modules.Accounts.Contracts.csproj" />
+    <ProjectReference Include="..\Bth.Modules.Transfers.Domain\Bth.Modules.Transfers.Domain.csproj" />
+    <ProjectReference Include="..\Bth.Modules.Transfers.IntegrationEvents\Bth.Modules.Transfers.IntegrationEvents.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

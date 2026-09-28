@@ -1,0 +1,35 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/API/">
+    <Project Path="src/API/Bth.Api/Bth.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/Common/">
+    <Project Path="src/Common/Bth.Common.Application/Bth.Common.Application.csproj" />
+    <Project Path="src/Common/Bth.Common.Domain/Bth.Common.Domain.csproj" />
+    <Project Path="src/Common/Bth.Common.Infrastructure/Bth.Common.Infrastructure.csproj" />
+    <Project Path="src/Common/Bth.Common.Presentation/Bth.Common.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/src/Composition/">
+    <Project Path="src/Composition/Bth.Composition/Bth.Composition.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Accounts/">
+    <Project Path="src/Modules/Accounts/Bth.Modules.Accounts.Application/Bth.Modules.Accounts.Application.csproj" />
+    <Project Path="src/Modules/Accounts/Bth.Modules.Accounts.Contracts/Bth.Modules.Accounts.Contracts.csproj" />
+    <Project Path="src/Modules/Accounts/Bth.Modules.Accounts.Domain/Bth.Modules.Accounts.Domain.csproj" />
+    <Project Path="src/Modules/Accounts/Bth.Modules.Accounts.Infrastructure/Bth.Modules.Accounts.Infrastructure.csproj" />
+    <Project Path="src/Modules/Accounts/Bth.Modules.Accounts.IntegrationEvents/Bth.Modules.Accounts.IntegrationEvents.csproj" />
+    <Project Path="src/Modules/Accounts/Bth.Modules.Accounts.Presentation/Bth.Modules.Accounts.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Transfers/">
+    <Project Path="src/Modules/Transfers/Bth.Modules.Transfers.Application/Bth.Modules.Transfers.Application.csproj" />
+    <Project Path="src/Modules/Transfers/Bth.Modules.Transfers.Domain/Bth.Modules.Transfers.Domain.csproj" />
+    <Project Path="src/Modules/Transfers/Bth.Modules.Transfers.Infrastructure/Bth.Modules.Transfers.Infrastructure.csproj" />
+    <Project Path="src/Modules/Transfers/Bth.Modules.Transfers.IntegrationEvents/Bth.Modules.Transfers.IntegrationEvents.csproj" />
+    <Project Path="src/Modules/Transfers/Bth.Modules.Transfers.Presentation/Bth.Modules.Transfers.Presentation.csproj" />
+  </Folder>
+  <Folder Name="/test/">
+    <Project Path="test/Bth.IntegrationTests/Bth.IntegrationTests.csproj" />
+    <Project Path="test/Bth.UnitTests/Bth.UnitTests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Composition\Bth.Composition\Bth.Composition.csproj" />
+    <ProjectReference Include="..\..\Modules\Accounts\Bth.Modules.Accounts.Infrastructure\Bth.Modules.Accounts.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Transfers\Bth.Modules.Transfers.Infrastructure\Bth.Modules.Transfers.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.8.25" />
+    <PackageReference Include="Hangfire.PostgreSql" Version="1.21.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.12">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>

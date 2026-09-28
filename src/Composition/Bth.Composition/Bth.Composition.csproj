@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Modules\Accounts\Bth.Modules.Accounts.Infrastructure\Bth.Modules.Accounts.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Transfers\Bth.Modules.Transfers.Infrastructure\Bth.Modules.Transfers.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Modules\Transfers\Bth.Modules.Transfers.Application\Bth.Modules.Transfers.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EFCore.NamingConventions" Version="10.0.1" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.3" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
